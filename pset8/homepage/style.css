@@ -1,0 +1,90 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.flex-container {
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        height: 300px;
+        flex-basis:90%;
+        align-items: center;
+        align-content:center;
+    }
+    .para1 button, .para2 button, .para3 button{
+        font-size:20px;
+        margin-top:50%;
+        font-weight:400;
+        color:black;
+    }
+    .para1 p, .para2 p, .para3 p{
+        font-size:20px;
+        font-weight:200;
+        font-style:italic;
+    }
+    .footer{
+        background-color:black;
+        width:100%;
+        height:86px;
+    }
+    .footer h3{
+        color:white;
+        padding-top:10px;
+    }
+    .a {
+        margin-left:43%;
+    }
+    .fa {
+     padding:15px;
+      padding-top: 5px;
+      font-size: 20px;
+      width: 20px;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+    .fa:hover{
+        text-decoration:none;
+    }
+    .fa-facebook {
+      color: white;
+    }
+    .fa-twitter {
+      color: white;
+    }
+    .fa-instagram {
+      color: white;
+    }
+    .fa-google {
+      color: white;
+    }
+
+    /*media query*/
+@media only screen and (max-width: 500px){
+    .flex-container {
+        display:flex;
+        flex-direction:row;
+    }
+    p{
+        font-size:30px;
+        text-align:center;
+    }
+    .para1 button, .para2 button, .para3 button{
+        font-size:14px;
+    }
+    .footer
+    {
+        height:120px;
+    }
+    .a{
+        margin-left:37%;
+    }
+    .footer h3{
+        padding-top:40px;
+    }
+    .fa {
+      padding-top: 55px;
+      padding:10px;
+      font-size: 10px;
+
+    }
+}
